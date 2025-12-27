@@ -1,5 +1,5 @@
 export default function Content(){
-    return (<div className="flex flex-col h-screen w-full">
+    return (<div className="flex flex-col h-screen  bg-[#212121] w-full">
       <header className="h-10 flex items-center px-4">
   {/* Left side */}
   <div className="text-xl text-gray-200  flex items-center ">
@@ -14,7 +14,7 @@ export default function Content(){
   </div>
 </header>
 
-<div className="flex-1 mx-20 flex flex-col bg-[#0f0f0f] ">
+<div className="flex-1 mx-20 flex flex-col  ">
         <div className="flex-1 mx-w-3xl overflow-y-auto   flex justify-center items-center text-base"><p className="mt-6 text-white">Where should we begin?
 </p></div>
 
